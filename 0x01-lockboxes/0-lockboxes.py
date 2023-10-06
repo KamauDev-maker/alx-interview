@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+lockboxes
+"""
+
 
 def canUnlockAll(boxes):
     """
@@ -22,4 +26,3 @@ def canUnlockAll(boxes):
                 stack.append(key)
 
     return all(visited)
-
